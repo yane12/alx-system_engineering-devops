@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """Python to get data from an API and convert to Json"""
 import csv
@@ -23,4 +22,3 @@ if __name__ == '__main__':
                                   "username": USERNAME})
     with open('{}.json'.format(USER_ID), 'w') as f:
         json.dump(dict_data, f)
-
