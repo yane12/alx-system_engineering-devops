@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """python script to fetch Rest API for todo lists of employees"""
 
@@ -31,7 +30,7 @@ if __name__ == '__main__':
                 "completed": TASK_COMPLETED_STATUS,
                 "username": USERNAME
             })
-            """A little Something"""
+           
     with open('todo_all_employees.json', 'w') as f:
         json.dump(users_dict, f)
 
